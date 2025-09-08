@@ -1,0 +1,5 @@
+For Caching -> Redis
+For Blob storage (products images in amazon or videos in netflix) -> Amazon S3 + CDN
+For Text Search engine with fuzzy search logic -> Elastic / Solr
+For Time series db for metrics aytem (like grafana / prometheus) -> OpenTSDB (here query is not random both read / write is time based)
+
